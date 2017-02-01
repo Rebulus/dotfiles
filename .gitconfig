@@ -1,0 +1,20 @@
+[user]
+        name = Aleksei Simanchik
+        email = rebulus@gmail.com
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+        type = cat-file -t
+        dump = cat-file -p
+        sub = submodule update --init --recursive
+        unstage = reset --hard
+        last = log -1 HEAD
+[core]
+        editor = /usr/bin/vim
+        autocrlf = input
+        ignoreCase = false
+[color]
+        ui = true
